@@ -1,0 +1,54 @@
+
+data 
+
+posts 
+
+id 
+comments : beautiful landscape
+image 
+number of likes 
+
+{
+    "posts" : [
+        {
+            "id" : 1,
+            "comments" : "beautiful landscape",
+            "image" : "image1.jpg",
+            "number of likes" : 100
+        },
+        {
+            "id" : 2,
+            "comments" : "beautiful landscape",
+            "image" : "image2.jpg",
+            "number of likes" : 200
+        },
+        {
+            "id" : 3,
+            "comments" : "beautiful landscape",
+            "image" : "image3.jpg",
+            "number of likes" : 300
+        },
+        {
+            "id" : 4,
+            "comments" : "beautiful landscape",
+            "image" : "image4.jpg",
+            "number of likes" : 400
+        }
+    ]
+}
+
+interface Post {
+    id: number;
+    comments: string;
+    imageUrl: string;
+    likes: number;
+    tag: string[];
+}
+
+interface AppState{
+    posts: Post[];
+}
+
+
+[a, ab, bb, c ] filters comments by substring 
+nu
